@@ -31,11 +31,11 @@ bangalore-weather-forecast/
 ├── report/
 │   ├── Weather_Forecasting_Report.pbix             # Power BI report
 │   ├── report_images/                              # Images of Report Pages
-│   │   ├── Page 1    - Home
-│   │   ├── Page 2    - Performance
-│   │   ├── Page 2.1  - Performance_Deductions
-│   │   ├── Page 3    - Forecast
-│   │   ├── Page 4    - Documentation
+│   │   ├── Page_1_Home
+│   │   ├── Page_2_Performance
+│   │   ├── Page_2.1_Performance_Deductions
+│   │   ├── Page_3_Forecast
+│   │   ├── Page_4_Documentation
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -67,7 +67,22 @@ bangalore-weather-forecast/
 - **Weather Match Rate** (e.g. - Cloudy Match rate etc.)
 - **Scorecard** (Scored weather parameters on custom thresholds)
 
-## 📊 Report ScreenShots / Video / PPT
+## 📊 Report ScreenShots & Video
+
+### 🏠 Home Page
+![Home Page](report/report_images/Page_1_Home.png)
+
+### 📈 Performance Page
+![Performance](report/report_images/Page_2_Performance.png)
+
+### 🧠 Deductions from Performance
+![Deductions](report/report_images/Page_2.1_Performace_Deductions.png) 
+
+### 🌤️ 7-Day Forecast Page
+![Forecast](report/report_images/Page_3_Forecast.png)
+
+### 📖 Documentation / Metrics
+![Documentation](report/report_images/Page_4_Documentation.png)
 
 
 ➡️ Full metric logic is documented in docs/documentation.md
