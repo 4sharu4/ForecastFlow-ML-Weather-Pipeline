@@ -67,7 +67,10 @@ bangalore-weather-forecast/
 - **Weather Match Rate** (e.g. - Cloudy Match rate etc.)
 - **Scorecard** (Scored weather parameters on custom thresholds)
 
-## 📊 Report ScreenShots & Video
+## 📊 Report ScreenShots & Video 
+
+### 🎥 Project Demo Video
+[![Watch the demo](https://img.youtube.com/vi/ShHrgLjokH0/0.jpg)](https://youtu.be/ShHrgLjokH0)
 
 ### 🏠 Home Page
 ![Home Page](report/report_images/Page_1_Home.png)
