@@ -4,6 +4,7 @@ This project is an **end-to-end weather forecasting analysis** for Bangalore.
 It combines **historical weather data**, **predicted weather data**, **dimension tables** and a 7-day automation update **forecast-data** to build insights and Power BI dashboards.
 
 ## 📂 Repository Structure
+```text
 bangalore-weather-forecast/
 ├─ data/
 │  ├─ Facts_CSV/ 
@@ -17,7 +18,7 @@ bangalore-weather-forecast/
 ├─ README.md # Project overview
 ├─ LICENSE # Open-source license
 └─ .gitignore # Ignored files
-
+```
 
 ## 🚀 Project Highlights
 - Collected actual and predicted weather data for Bangalore through Python & ML.
