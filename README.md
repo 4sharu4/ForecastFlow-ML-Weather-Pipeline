@@ -42,10 +42,12 @@ bangalore-weather-forecast/
 - **Python / ML** (optional extension) → Forecasting models
 - **Google Collab** → To test, train and predict data, to download historical data.
 
-## 📊 Example Use Cases
-- Show weather prediction performance to demonstrate **forecasting skills**.
-- Display **data modeling concepts** (Fact vs. Dimension).
-- Report and Data can be relied on and developed into **Actual Weather App**.
+## 📊 Use Cases & Applications
+
+* Showcases end-to-end integration of **ML forecasting** with **BI reporting**.
+* Adaptable for domains like **logistics**, **urban planning**, or **climate analytics**.
+* Scalable to **multi-region forecasts** and **real-time data pipelines**.
+* Forms a foundation for solutions in **demand prediction**, **weather risk modeling**, and more.
 
 ## 📖 Data Sources  
 - Open Meteo → Historical data for training and comparison against predicted.
