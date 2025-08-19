@@ -30,7 +30,12 @@ bangalore-weather-forecast/
 │   ├── documentation.md                            # Metric definitions & model logic
 ├── report/
 │   ├── Weather_Forecasting_Report.pbix             # Power BI report
-│   ├── Report_Content/                             # Video & PDF of the report, interactivity
+│   ├── report_images/                              # Images of Report Pages
+│   │   ├── Page 1    - Home
+│   │   ├── Page 2    - Performance
+│   │   ├── Page 2.1  - Performance_Deductions
+│   │   ├── Page 3    - Forecast
+│   │   ├── Page 4    - Documentation
 ├── README.md
 ├── LICENSE
 └── .gitignore
