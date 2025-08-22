@@ -31,6 +31,7 @@ bangalore-weather-forecast/
 ├── report/
 │   ├── Weather_Forecasting_Report.pbix             # Power BI report
 │   ├── report_images/                              # Images of Report Pages
+│   │   ├── Report_Data_Model                            
 │   │   ├── Page_1_Home
 │   │   ├── Page_2_Performance
 │   │   ├── Page_2.1_Performance_Deductions
