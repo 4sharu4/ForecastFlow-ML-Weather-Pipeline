@@ -3,13 +3,15 @@
 This project is an **end-to-end weather forecasting analysis** for Bangalore.  
 It uses **machine learning**, **Python scripting**,**Google collab**, and **Power BI** dashboards to predict weather and evaluate model performance, while supporting dynamic 7-day automated forecasts.
 
+
 ## 🚀 Project Highlights
-- Collected and processed historical weather data (2010-21), actual weather data (2022-25) via **Open-Meteo** API using **Python**.
-- Forecasted Bengaluru Weather (2022-25) using **ML Models** (e.g., XGBoost, Random Forest)
-- Built interactive **Power BI dashboards** for both long-term performance & dynamic short-term (7-day) forecasts to visualize trends, accuracy & insights.
+- **Forecasts Bengaluru Weather Metrics** (Rainfall, Wind, Temp, UV) (2022-25) using **ML Models** (e.g., XGBoost, Random Forest)
+- Interactive **Power BI dashboards** for both long-term performance & dynamic short-term (7-day) forecasts to visualize trends, accuracy & insights.
 - Evaluated model performance using metrices like  **RMSE, MAE, MAPE, Weather Match Rate, and Within% bands**.
-- Implemented Fact-Dimension **data modelling** for clean BI architecture.
-- Developed a python script & Forecasted 7-day daily updating dynamic week data.
+- Fact-Dimension **data modelling** for clean BI architecture.
+- **Python** script & Forecasted 7-day daily updating dynamic week data.
+
+
 
 ## 📂 Repository Structure
 ```text
@@ -57,8 +59,6 @@ bangalore-weather-forecast/
 
 ## 📖 Data Sources  
 - Open Meteo → Historical data for training and comparison against predicted.
-- Weather descriptions mapping (dimension table) → clear, rainy, codes, image, etc.
-- Weather Variable Parameter → temp, wind, solar, precip, etc.
 
 ## 📐 Evaluation Metrices
 - **MAE** (Mean Absolute Error)
@@ -68,28 +68,10 @@ bangalore-weather-forecast/
 - **Weather Match Rate** (e.g. - Cloudy Match rate etc.)
 - **Scorecard** (Scored weather parameters on custom thresholds)
 
-## 📊 Report ScreenShots & Video 
+## 📊 Report Video 
 
 ### 🎥 Project Demo Video
 [![Watch the demo](https://img.youtube.com/vi/ShHrgLjokH0/0.jpg)](https://youtu.be/ShHrgLjokH0)
-
-### 🏠 Home Page
-![Home Page](report/report_images/Page_1_Home.png)
-
-### 📈 Performance Page
-![Performance](report/report_images/Page_2_Performance.png)
-
-### 🧠 Deductions from Performance
-![Deductions](report/report_images/Page_2.1_Performace_Deductions.png) 
-
-### 🌤️ 7-Day Forecast Page
-![Forecast](report/report_images/Page_3_Forecast.png)
-
-### 📖 Documentation / Metrics
-![Documentation](report/report_images/Page_4_Documentation.png)
-
-
-➡️ Full metric logic is documented in docs/documentation.md
 
 
 ## 🖥️ Set up instructions & Pre-requisites
