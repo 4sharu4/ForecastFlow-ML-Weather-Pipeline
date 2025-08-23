@@ -1,17 +1,29 @@
-# 🌦️ Bangalore Weather Forecast (2022–2025)
+# 🌦️ ForecastFlow-ML-Powered-Weather-BI-Analytics-Pipeline
 
-This project is an **end-to-end weather forecasting analysis** for Bangalore.  
-It uses **machine learning**, **Python scripting**,**Google collab**, and **Power BI** dashboards to predict weather and evaluate model performance, while supporting dynamic 7-day automated forecasts.
+ForecastFlow is a complete **end-to-end pipeline** of **time-series forecasting & analytics solution**, **predicting and performance evaluation system** using **Machine Learning**, **automation** of daily 7-day predictions, and **insights visualization** of detailed **forecast accuracy scoring** through dynamic **Power BI** dashboards.  
+This project focuses on Bengaluru (2022–2025) and demonstrates how predictive analytics and business intelligence can work together in real-world, data-driven solutions.
 
+---
 
 ## 🚀 Project Highlights
-- **Forecasts Bengaluru Weather Metrics** (Rainfall, Wind, Temp, UV) (2022-25) using **ML Models** (e.g., XGBoost, Random Forest)
-- Interactive **Power BI dashboards** for both long-term performance & dynamic short-term (7-day) forecasts to visualize trends, accuracy & insights.
-- Evaluated model performance using metrices like  **RMSE, MAE, MAPE, Weather Match Rate, and Within% bands**.
-- Fact-Dimension **data modelling** for clean BI architecture.
-- **Python** script & Forecasted 7-day daily updating dynamic week data.
+- 🔮**Predicts Bengaluru Weather Metrics**: (Rainfall, Wind, Temp, UV) (2022-25) using **ML Models** (e.g., XGBoost, Random Forest) with historical data.
+- 📊 **Interactive Power BI Dashboards**: Visualize **actual vs predicted comparison**, **performance**, **scores**, **deduction logic**, documentation
+- 📈 **Model Accuracy Evaluation:** Metrics include **MAE, MAPE, RMSE, NRMSE, Within% (±2,5,10,15)**, and weather condition match rate
+- 🧮 **Custom Scoring Engine:** Dynamic performance scoring system from 0 to 30 based on accuracy thresholds
+- ⚙️ **Automated Daily Update Script:** Python script generates dynamic 7-day forecasts for Power BI refresh
+- 🧩 **Fact-Dimension Data Modeling:** Clean BI architecture using normalized structure
 
+---
 
+## 🧠 Key Features
+- **Data Handling** - Trained on 10 years historical data (2010-2021), forecasting ahead (2022-2025).
+- **Machine Learning** - machine learning models (XGBoost, Random Forest) for multi-parameter forecasting
+- **Forecast vs. actual** - accuracy comparitive evaluation with - Error metrics (MAE, RMSE, MAPE, etc.), Weather match rates (e.g., “Cloudy match rate”).
+- **Power BI visual storytelling** -  interactive report, predictions, deviations, insights, dynamic visuals, documentation.
+- **Models** - Applies machine learning models (XGBoost, Random Forest) for multi-parameter forecasting
+- **Rolling forecast** - Generates rolling 7-day daily forecasts with daily refresh ( currently manual due to free account limitations but possible with scheduled refersh)
+
+---
 
 ## 📂 Repository Structure
 ```text
@@ -44,34 +56,71 @@ bangalore-weather-forecast/
 └── .gitignore
 ```
 
+---
 ## 🛠️ Tools & Technologies
-- **Power BI** → Data visualization & dashboards
-- **GitHub** → Project hosting & version control
-- **Python / ML** (optional extension) → Forecasting models
-- **Google Collab** → To test, train and predict data, to download historical data.
 
-## 📊 Use Cases & Applications
+| Tool/Tech                  | Purpose                                 |
+| -------------------------- | --------------------------------------- |
+| **Python**                 | Data fetching, cleaning, forecasting    |
+| **XGBoost, Random Forest** | ML models for prediction                |
+| **Pandas, NumPy**          | Data processing and manipulation        |
+| **Power BI**               | Interactive dashboards and scoring      |
+| **OpenMeteo API**          | Historical weather data source          |
+| **Google Colab**           | Model experimentation and visualization |
+| **GitHub**                 | Project hosting & version control       |
 
-* Showcases end-to-end integration of **ML forecasting** with **BI reporting**.
-* Adaptable for domains like **logistics**, **urban planning**, or **climate analytics**.
-* Scalable to **multi-region forecasts** and **real-time data pipelines**.
-* Forms a foundation for solutions in **demand prediction**, **weather risk modeling**, and more.
+---
 
-## 📖 Data Sources  
+## 📈 Evaluation Metrics
+
+* **MAE**: Mean Absolute Error
+* **MAPE**: Mean Absolute Percentage Error
+* **RMSE/NRMSE**: Root Mean Square Error (Normalized)
+* **Within % Accuracy**: Predictions within ±2%, 5%, 10%, 15% of actuals
+* **Weather Match Rate**: Accuracy for categorical weather types (Clear, Rain, etc.)
+* **Scoring System**: Parameters scored 0–30 based on thresholds
+
+---
+
+## 💡 Applications & Use Cases
+
+* Urban planning & smart city dashboards
+* Renewable energy & weather-dependent industries
+* Model reliability diagnostics, demand prediction, weather risk modeling
+* Educational or internal data science case studies
+* Extension-ready for real-time, multi-location weather analytics
+
+---
+
+## 📌 Future Enhancements (Optional Ideas)
+
+* Integration with Azure / AWS pipelines
+* Expand to multi-city forecasting or hourly data
+* Add model explainability (e.g., SHAP, feature importance)
+* Incorporate satellite or external weather signals (e.g., El Niño index)
+
+---
+
+## 📖 Data Sources and References
 - Open Meteo → Historical data for training and comparison against predicted.
+- Weather pdf thingy
 
-## 📐 Evaluation Metrices
-- **MAE** (Mean Absolute Error)
-- **MAPE** (Mean Absolute Percetnage Error)
-- **NRMSE** (Normalized Root Mean Square Error)
-- **Within % ±2%, 5%**, etc. ( Data within % of error)
-- **Weather Match Rate** (e.g. - Cloudy Match rate etc.)
-- **Scorecard** (Scored weather parameters on custom thresholds)
+---
 
 ## 📊 Report Video 
 
 ### 🎥 Project Demo Video
 [![Watch the demo](https://img.youtube.com/vi/ShHrgLjokH0/0.jpg)](https://youtu.be/ShHrgLjokH0)
+
+### 📊 Visual Reporting (Power BI)
+
+Includes 5 interactive report pages:
+
+1. **Home** – Key summary metrics and high-level visuals  
+2. **Performance** – Forecast accuracy and evaluation  
+3. **Performance Deductions** – Root cause & drill-downs  
+4. **7-Day Forecast** – Auto-updating predictions  
+5. **Documentation** – Metric definitions & project logic  
 
 
 ## 🖥️ Set up instructions & Pre-requisites
@@ -90,3 +139,6 @@ This project is licensed under the [MIT License](LICENSE).
 1. Clone this repo:
    ```bash
    git clone https://github.com/your-username/bangalore-weather-forecast.git
+
+## 🤝 Contributing
+Contributions and feature requests are welcome! Feel free to open issues or submit pull requests.
