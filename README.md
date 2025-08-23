@@ -1,7 +1,8 @@
-# 🌦️ ForecastFlow-ML-Powered-Weather-BI-Analytics-Pipeline
+# 🌦️ ForecastFlow-ML-Weather-Pipeline
 
-ForecastFlow is a complete **end-to-end pipeline** of **time-series forecasting & analytics solution**, **predicting and performance evaluation system** using **Machine Learning**, **automation** of daily 7-day predictions, and **insights visualization** of detailed **forecast accuracy scoring** through dynamic **Power BI** dashboards.  
-This project focuses on Bengaluru (2022–2025) and demonstrates how predictive analytics and business intelligence can work together in real-world, data-driven solutions.
+**ForecastFlow is an end-to-end time-series forecasting and analytics pipeline, combines Machine Learning, rolling 7-day predictions on refresh, performance evaluation system, delivered through interactive, insightful Power BI dashboards**.
+
+This project focuses on **Bengaluru (2022–2025)** and uses historical weather data, custom scoring logic, and automated scripts to produce high-accuracy daily forecasts. It's designed to showcase how predictive analytics and BI reporting can work together to deliver real-world insights.
 
 ---
 
@@ -103,7 +104,7 @@ bangalore-weather-forecast/
 
 ## 📖 Data Sources and References
 - Open Meteo → Historical data for training and comparison against predicted.
-- Weather pdf thingy
+- Weather pdf
 
 ---
 
