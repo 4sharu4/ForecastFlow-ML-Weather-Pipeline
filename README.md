@@ -110,8 +110,8 @@ bangalore-weather-forecast/
 
 ## 📊 Report Video 
 
-### 🎥 Project Demo Video
-[![Watch the demo](https://img.https://youtu.be/crIK1RjrLwM.jpg)](https://youtu.be/crIK1RjrLwM)
+### 🎥 Project Demo Video  
+[![Watch the demo](https://img.youtube.com/vi/crIK1RjrLwM/0.jpg)](https://youtu.be/crIK1RjrLwM)
 
 ### 📊 Visual Reporting (Power BI)
 
