@@ -104,7 +104,7 @@ bangalore-weather-forecast/
 
 ## 📖 Data Sources and References
 - Open Meteo → Historical data for training and comparison against predicted.
-- Weather pdf
+- [Weather pdf](https://forecastwatch.com/wp-content/uploads/Global_and_Regional_Weather_Forecast_Accuracy_Overview_2021-2024.pdf)
 
 ---
 
