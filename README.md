@@ -133,8 +133,6 @@ Make sure the following are installed on your local machine:
 - **Download** the `.pbix` file from the repository -  * `reports/Weather_Forecast_Dashboard.pbix`
 - **Open** the file using **Power BI Desktop** and **Refresh**
 
-## 📜 License  
-This project is licensed under the [MIT License](LICENSE).
 
 ## 📝 How to Use
 1. Clone this repo:
